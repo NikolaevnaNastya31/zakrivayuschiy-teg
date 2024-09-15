@@ -9,7 +9,7 @@
 }
 
 body {
-  margin: 0;
+  margin: 0 ;
 }
 
 h1,
@@ -35,6 +35,11 @@ input {
   color: currentColor;
   font-family: inherit;
   font-size: inherit;
+  appearance: none;
+  border: none;
+  cursor: pointer;
+  background: transparent;
+  padding: 0;
 }
 
 ul,

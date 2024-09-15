@@ -1,1 +1,89 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --text-color: #000000;
+  --border-color: #000000;
+  --background-color: #ffffff;
+  --hover-color: #000000;
+  --font-accent: "PressStart2P", sans-serif;
+  --font-inter: "Inter-Variable", sans-serif;
+  --font-size-logo: 49px;
+  --font-size-accent-text: 14px;
+  --font-size-content: 18px;
+  --font-weight-header: 400;
+  --bold-font: 700;
+  --medium-font: 400;
+  --line-height-logo: 49px;
+  --line-height-accent-text: 14px;
+  --line-height-title: 22px;
+  --line-height-content: 21px;
+  --line-height-btn-like: 12.6px;
+  --line-height-btn-footer: 21px;
+  --flex-direction-row: row;
+  --flex-direction-column: column;
+  --svg-size-s: 21px;
+  --svg-size-m: 28px;
+  --svg-size-l: 39px;
+  --text-stroke-color: #ffffff;
+  --box-shadow: #000000;
+  --contour: #000000;
+  --contour-active: #ff0000;
+  --sparks: #ff0000;
+  --body-heard-hover: #000000;
+  --body-herad: #ff0000;
+  --core-hover: #000000;
+  --core: #ff0000;
+  --all-fill: #ff0000;
+  --dark-theme: green;
+  --button-color-hover: #ffffff;
+  --background-gradient: repeating-linear-gradient(
+      #d3d3d3 0,
+      #d3d3d3 2px,
+      rgb(211 211 211/0) 2px,
+      rgb(211 211 211/0) 4px
+    ),
+    repeating-linear-gradient(
+      to right,
+      #d3d3d3 0,
+      #d3d3d3 2px,
+      rgb(211 211 211/0) 2px,
+      rgb(211 211 211/0) 4px
+    ),
+    linear-gradient(
+      to bottom,
+      #e7e7e7 0.01%,
+      #e7e7e7 10%,
+      #e7e7e7 30%,
+      #1a1a1a 60%,
+      #1a1a1a 90%,
+      #1a1a1a 100%
+    );
+
+  --backdrop: linear-gradient(
+    to bottom,
+    #e7e7e7 0.01%,
+    #e7e7e7 10%,
+    #e7e7e7 30%,
+    #1a1a1a 60%,
+    #1a1a1a 90%,
+    #1a1a1a 100%
+  );
+  --backdrop: #000000;
+}
+
+@media (width > 375px) {
+  .logo {
+    --line-height-logo: 65px;
+  }
+
+  .header__text {
+    --line-height-header: 23px;
+  }
+
+  .footer__button {
+    --flex-direction-column: var(--flex-direction-row);
+  }
+
+  .footer-svg {
+    --svg-size-m: var(--svg-size-s);
+  }
+}
