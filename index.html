@@ -21,7 +21,9 @@
 <body class="page">
   <header class="header">
     <div class="header__logo">
-      <h1 class="logo">&lt/html&gt</h1>
+      <a href="#">
+        <h1 class="logo">&lt/html&gt</h1>
+      </a>
       <p class="header__text">Закрывающий тег</p>
     </div>
     <nav class="theme-menu header__theme-menu">
@@ -50,6 +52,7 @@
     <article class="card">
       <h2 class="card__title">Фритрек и нулевой спринт: Подготовка к работе</h2>
       <div class="card__img-box">
+        <span class="watermark">&lt/HTML&gt</span>
         <img class="img" src="./images/car_1x.png" srcset="
                ./images/car_2x.png 2x,
                ./images/car_3x.png 3x" alt="иллюстрация автомобиля, около дерева, ночное время, стиль «пиксель-арт»"
@@ -63,7 +66,7 @@
           <p class="text">Это был момент предвкушения, новых знаний, чего-то нового.</p>
         </div>
         <div class="card__icon">
-          <button class="card__icon-button">
+          <button type="button" class="card__icon-button">
             <svg class="like-icon" width="39" height="36" viewBox="0 0 39 36" fill="none"
               xmlns="http://www.w3.org/2000/svg">
               <g class="heard">
@@ -84,7 +87,7 @@
                 fill="#FF0000" />
             </svg>
           </button>
-          <button class="card__like-button">
+          <button type="button" class="card__like-button">
             <span class="button__text">Like</span>
           </button>
         </div>
@@ -94,7 +97,8 @@
     <article class="card">
       <h2 class="card__title">1 спринт: Я — чистый лист</h2>
       <div class="card__img-box">
-        <img class="img" src="./images/car_1x.png" srcset="
+        <span class="watermark">&lt/HTML&gt</span>
+        <img class="img filter-grayscale" src="./images/car_1x.png" srcset="
                ./images/car_2x.png 2x,
                ./images/car_3x.png 3x" alt="иллюстрация автомобиля, около дерева, ночное время, стиль «пиксель-арт»"
           loading="lazy" />
@@ -108,7 +112,7 @@
           <p class="text">Ведь действительно, так и было. Еще тяга к знаниям и немножечко испуг...</p>
         </div>
         <div class="card__icon">
-          <button class="card__icon-button">
+          <button type="button" class="card__icon-button">
             <svg class="like-icon" width="39" height="36" viewBox="0 0 39 36" fill="none"
               xmlns="http://www.w3.org/2000/svg">
               <g class="heard">
@@ -130,7 +134,7 @@
             </svg>
 
           </button>
-          <button class="card__like-button">
+          <button type="button" class="card__like-button">
             <span class="button__text">Like</span>
           </button>
         </div>
@@ -140,7 +144,8 @@
     <article class="card">
       <h2 class="card__title">1 спринт: А если не получится?</h2>
       <div class="card__img-box">
-        <img class="img" src="./images/car_1x.png" srcset="
+        <span class="watermark">&ltCSS&gt</span>
+        <img class="img  filter-saturate" src="./images/car_1x.png" srcset="
                ./images/car_2x.png 2x,
                ./images/car_3x.png 3x" alt="иллюстрация автомобиля, около дерева, ночное время, стиль «пиксель-арт»"
           loading="lazy" />
@@ -149,10 +154,11 @@
         <div class="content__text">
           <p class="text">Первый проект — позади! Но это всё ещё самое начало пути. Радость могла быстро померкнуть и
             смениться ожиданием провала. Или вы, наоборот, могли вдохновиться успехами и поверить в себя.</p>
-          <p class="text">Приходит понимание того, что можешь сделать больше. Уверенность появляется в силах, и хочется идти дальше.</p>
+          <p class="text">Приходит понимание того, что можешь сделать больше. Уверенность появляется в силах, и хочется
+            идти дальше.</p>
         </div>
         <div class="card__icon">
-          <button class="card__icon-button">
+          <button type="button" class="card__icon-button">
             <svg class="like-icon" width="39" height="36" viewBox="0 0 39 36" fill="none"
               xmlns="http://www.w3.org/2000/svg">
               <g class="heard">
@@ -174,7 +180,7 @@
             </svg>
 
           </button>
-          <button class="card__like-button">
+          <button type="button" class="card__like-button">
             <span class="button__text">Like</span>
           </button>
         </div>
@@ -184,7 +190,8 @@
     <article class="card">
       <h2 class="card__title">2 спринт: Погоня за идеалом</h2>
       <div class="card__img-box">
-        <img class="img" src="./images/car_1x.png" srcset="
+        <span class="watermark">&ltdesigions&gt</span>
+        <img class="img filter-hue-rotate" src="./images/car_1x.png" srcset="
                ./images/car_2x.png 2x,
                ./images/car_3x.png 3x" alt="иллюстрация автомобиля, около дерева, ночное время, стиль «пиксель-арт»"
           loading="lazy" />
@@ -194,10 +201,11 @@
           <p class="text">На этом этапе вы уже достаточно разбирались в основах вёрстки, чтобы понять, как много ещё
             впереди. Вы могли попытаться погнаться за идеалом и понять, что он недостижим. А, может, вы вовсе и не
             подвержены перфекционизму и вместо того, чтобы сделать идеально, старались просто сделать.</p>
-          <p class="text">Хотелось действительно сделать идеально, и уходило времени много, пропуская суть задачи...жалко что приходилось просто сдавать..</p>
+          <p class="text">Хотелось действительно сделать идеально, и уходило времени много, пропуская суть
+            задачи...жалко что приходилось просто сдавать..</p>
         </div>
         <div class="card__icon">
-          <button class="card__icon-button">
+          <button type="button" class="card__icon-button">
             <svg class="like-icon" width="39" height="36" viewBox="0 0 39 36" fill="none"
               xmlns="http://www.w3.org/2000/svg">
               <g class="heard">
@@ -219,7 +227,7 @@
             </svg>
 
           </button>
-          <button class="card__like-button">
+          <button type="button" class="card__like-button">
             <span class="button__text">Like</span>
           </button>
         </div>
@@ -229,7 +237,8 @@
     <article class="card">
       <h2 class="card__title">2 спринт: О тех, кто рядом</h2>
       <div class="card__img-box">
-        <img class="img" src="./images/car_1x.png" srcset="
+        <span class="watermark">care</span>
+        <img class="img filter-invert" src="./images/car_1x.png" srcset="
                ./images/car_2x.png 2x,
                ./images/car_3x.png 3x" alt="иллюстрация автомобиля, около дерева, ночное время, стиль «пиксель-арт»"
           loading="lazy" />
@@ -240,10 +249,11 @@
             мира). Вас окружали одногруппники, команда сопровождения и просто близкие люди, которым можно пожаловаться,
             если очередной макет просто так не поддавался. Осваивать что-то новое легче, когда рядом есть
             единомышленники, не правда ли?</p>
-          <p class="text">Главное не падать духом, в не зависимотсти от ситуации, выдохнуть, отставить дела на время.</p>
+          <p class="text">Главное не падать духом, в не зависимотсти от ситуации, выдохнуть, отставить дела на время.
+          </p>
         </div>
         <div class="card__icon">
-          <button class="card__icon-button">
+          <button type="button" class="card__icon-button">
             <svg class="like-icon" width="39" height="36" viewBox="0 0 39 36" fill="none"
               xmlns="http://www.w3.org/2000/svg">
               <g class="heard">
@@ -265,7 +275,7 @@
             </svg>
 
           </button>
-          <button class="card__like-button">
+          <button type="button" class="card__like-button">
             <span class="button__text">Like</span>
           </button>
         </div>
@@ -275,7 +285,8 @@
     <article class="card">
       <h2 class="card__title">3 спринт: Обходные стратегии</h2>
       <div class="card__img-box">
-        <img class="img" src="./images/car_1x.png" srcset="
+        <span class="watermark">&ltsupport&gt</span>
+        <img class="img filter-sepia" src="./images/car_1x.png" srcset="
                ./images/car_2x.png 2x,
                ./images/car_3x.png 3x" alt="иллюстрация автомобиля, около дерева, ночное время, стиль «пиксель-арт»"
           loading="lazy" />
@@ -287,7 +298,7 @@
           <p class="text">Тут главное самообладание. Просто бери и делай. </p>
         </div>
         <div class="card__icon">
-          <button class="card__icon-button">
+          <button type="button" class="card__icon-button">
             <svg class="like-icon" width="39" height="36" viewBox="0 0 39 36" fill="none"
               xmlns="http://www.w3.org/2000/svg">
               <g class="heard">
@@ -309,7 +320,7 @@
             </svg>
 
           </button>
-          <button class="card__like-button">
+          <button type="button" class="card__like-button">
             <span class="button__text">Like</span>
           </button>
         </div>
@@ -319,7 +330,8 @@
     <article class="card">
       <h2 class="card__title">3 спринт: Когда опускаются руки</h2>
       <div class="card__img-box">
-        <img class="img" src="./images/car_1x.png" srcset="
+        <span class="watermark">&ltlifes-style: none;&gt</span>
+        <img class="img filter-blur" src="./images/car_1x.png" srcset="
                ./images/car_2x.png 2x,
                ./images/car_3x.png 3x" alt="иллюстрация автомобиля, около дерева, ночное время, стиль «пиксель-арт»"
           loading="lazy" />
@@ -332,7 +344,7 @@
           <p class="text">...подумала о том, что же ждет нас в четвертом...</p>
         </div>
         <div class="card__icon">
-          <button class="card__icon-button">
+          <button type="button" class="card__icon-button">
             <svg class="like-icon" width="39" height="36" viewBox="0 0 39 36" fill="none"
               xmlns="http://www.w3.org/2000/svg">
               <g class="heard">
@@ -351,7 +363,7 @@
                 fill="#FF0000" />
             </svg>
           </button>
-          <button class="card__like-button">
+          <button type="button" class="card__like-button">
             <span class="button__text">Like</span>
           </button>
         </div>
@@ -361,7 +373,8 @@
     <article class="card">
       <h2 class="card__title">«Сейчас я здесь»</h2>
       <div class="card__img-box">
-        <img class="img" src="./images/car_1x.png" srcset="
+        <span class="watermark">&ltexperience&gt</span>
+        <img class="img filter-multiple" src="./images/car_1x.png" srcset="
                ./images/car_2x.png 2x,
                ./images/car_3x.png 3x" alt="иллюстрация автомобиля, около дерева, ночное время, стиль «пиксель-арт»"
           loading="lazy" />
@@ -372,10 +385,11 @@
             материала про «красотищу». Во-вторых, с окончанием курса учёба не заканчивается. Вёрстка — это целый мир. И
             этот мир постоянно меняется. Познать его полностью не получится, но это тот случай, когда важен сам процесс
             познания. Ведь часто путь — и есть результат.</p>
-          <p class="text">Я чувствую желание идти дальше, появился боевой настрой. Главное нравится, и это очень радует.</p>
+          <p class="text">Я чувствую желание идти дальше, появился боевой настрой. Главное нравится, и это очень радует.
+          </p>
         </div>
         <div class="card__icon">
-          <button class="card__icon-button">
+          <button type="button" class="card__icon-button">
             <svg class="like-icon" width="39" height="36" viewBox="0 0 39 36" fill="none"
               xmlns="http://www.w3.org/2000/svg">
               <g class="heard">
@@ -396,36 +410,37 @@
                 fill="#FF0000" />
             </svg>
           </button>
-          <button class="card__like-button">
+          <button type="button" class="card__like-button">
             <span class="button__text">Like</span>
           </button>
         </div>
       </div>
     </article>
-  </main>
-  <footer class="footer">
-    <button class="footer__button" class="" type="button" onclick="window['dialog-open'].showModal()"
-      aria-controls="dialog-open">
-      <svg class="footer-svg" viewBox="0 0 28 28">
-        <use href="./svg/floppy.svg#floppy">
-      </svg>
-      <span class="button__text">Сохранить на память</span>
-    </button>
-    <dialog class="footer__dialog-open" id="dialog-open" aria-labelledby="dialog-name">
-      <div class="dialog-button-group">
-        <svg class="dialog-footer-svg" viewBox="0 0 28 28" fill="currentcolor">
-          <use href="./svg/floppy.svg#floppy" fill="currentcolor">
+    <article class="footer">
+      <button class="footer__button" class="" type="button" onclick="window['dialog-open'].showModal()"
+        aria-controls="dialog-open">
+        <svg class="footer-svg" viewBox="0 0 28 28">
+          <use href="./svg/floppy.svg#floppy">
         </svg>
-        <span id="dialog-name" class="footer__button-text button__text">
-          Вставьте
-          дискету, чтобы продолжить
-        </span>
-      </div>
-      <button class="footer-button_close" type="button" onclick="window['dialog-open'].close()">
-        <span class="button__text">ок</span></button>
-    </dialog>
-  </footer>
+        <span class="button__text">Сохранить на память</span>
+      </button>
+      <dialog class="footer__dialog-open" id="dialog-open" aria-labelledby="dialog-name">
+        <div class="dialog-button-group">
+          <svg class="dialog-footer-svg" viewBox="0 0 28 28" fill="currentcolor">
+            <use href="./svg/floppy.svg#floppy" fill="currentcolor">
+          </svg>
+          <span id="dialog-name" class="footer__button-text button__text">
+            Вставьте
+            дискету, чтобы продолжить
+          </span>
+        </div>
+        <button class="footer-button_close" type="button" onclick="window['dialog-open'].close()">
+          <span class="button__text">ок</span></button>
+      </dialog>
+    </article>
+  </main>
 </body>
+
 <script src="./scripts/like.js"></script>
 
 </html>

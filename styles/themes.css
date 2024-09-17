@@ -8,7 +8,6 @@
 :root.theme-light {
   --background-color: #ffffff;
   --text-color: #000000;
-  --background-color: #ffffff;
   --border-color: #000000;
   --hover-color: #000000;
   --text-stroke-color: #ffffff;
@@ -20,18 +19,18 @@
   --body-heard: #ff0000;
   --core-hover: #000000;
   --core: #ff0000;
-  --all-fill: #ff0000;
   --button-color-hover: #ffffff;
-  --bold-font: 700;
-  --medium-font: 400;
+  --font-variation-settings-bold: "wdth" 700;
+  --font-variation-settings: "wdth" 400;
   --background-gradient: repeating-linear-gradient(
+      to right,
       #d3d3d3 0,
       #d3d3d3 2px,
       rgb(211 211 211/0) 2px,
       rgb(211 211 211/0) 4px
     ),
     repeating-linear-gradient(
-      to right,
+      to bottom,
       #d3d3d3 0,
       #d3d3d3 2px,
       rgb(211 211 211/0) 2px,
@@ -46,8 +45,6 @@
       #1a1a1a 90%,
       #1a1a1a 100%
     );
-
-  --backdrop: #000000;
 }
 
 :root.theme-dark {
@@ -58,24 +55,24 @@
   --text-stroke-color: #000000;
   --box-shadow: #00cc14;
   --contour: #00cc14;
-  --contour-active: #00cc14;
-  --body-heard: #00cc14;
+  --contour-active: #ff0000;
+  --body-heard: #ff0000;
   --body-heard-hover: #00cc14;
-  --sparks: #00cc14;
-  --core: #00cc14;
+  --sparks: #ff0000;
+  --core: #ff0000;
   --core-hover: #00cc14;
-  --all-fill: #00cc14;
   --button-color-hover: #00cc14;
-  --bold-font: 785;
-  --medium-font: 465;
+  --font-variation-settings-bold: "wdth" 785;
+  --font-variation-settings: "wdth" 465;
   --background-gradient: repeating-linear-gradient(
+      to right,
       #000 0,
       #000 2px,
       rgb(0 0 0 / 0) 2px,
       rgb(0 0 0 / 0) 4px
     ),
     repeating-linear-gradient(
-      to right,
+      to bottom,
       #000 0,
       #000 2px,
       rgb(0 0 0 / 0) 2px,
@@ -90,8 +87,6 @@
       #004306 90%,
       #004306 100%
     );
-
-  --backdrop: #00cc14;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -103,24 +98,25 @@
     --text-stroke-color: #000000;
     --box-shadow: #00cc14;
     --contour: #00cc14;
-    --contour-active: #00cc14;
-    --body-heard: #00cc14;
+    --contour-active: #ff0000;
+    --body-heard: #ff0000;
     --body-heard-hover: #00cc14;
-    --sparks: #00cc14;
-    --core: #00cc14;
+    --sparks: #ff0000;
+    --core: #ff0000;
     --core-hover: #00cc14;
-    --all-fill: #00cc14;
+    --all-fill: #ff0000;
     --button-color-hover: #00cc14;
-    --bold-font: 785;
-    --medium-font: 465;
+    --font-variation-settings-bold: "wdth" 785;
+    --font-variation-settings: "wdth" 465;
     --background-gradient: repeating-linear-gradient(
+        to right,
         #000 0,
         #000 2px,
         rgb(0 0 0 / 0) 2px,
         rgb(0 0 0 / 0) 4px
       ),
       repeating-linear-gradient(
-        to right,
+        to bottom,
         #000 0,
         #000 2px,
         rgb(0 0 0 / 0) 2px,
@@ -135,53 +131,5 @@
         #004306 90%,
         #004306 100%
       );
-
-    --backdrop: #00cc14;
-  }
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    --text-color: #000000;
-    --border-color: #000000;
-    --background-color: #ffffff;
-    --hover-color: #000000;
-    --text-stroke-color: #ffffff;
-    --box-shadow: #000000;
-    --contour: #000000;
-    --contour-active: #ff0000;
-    --sparks: #ff0000;
-    --body-heard-hover: #000000;
-    --body-heard: #ff0000;
-    --core-hover: #000000;
-    --core: #ff0000;
-    --all-fill: #ff0000;
-    --button-color-hover: #ffffff;
-    --bold-font: 700;
-    --medium-font: 400;
-    --background-gradient: repeating-linear-gradient(
-        #d3d3d3 0,
-        #d3d3d3 2px,
-        rgb(211 211 211/0) 2px,
-        rgb(211 211 211/0) 4px
-      ),
-      repeating-linear-gradient(
-        to right,
-        #d3d3d3 0,
-        #d3d3d3 2px,
-        rgb(211 211 211/0) 2px,
-        rgb(211 211 211/0) 4px
-      ),
-      linear-gradient(
-        to bottom,
-        #e7e7e7 0.01%,
-        #e7e7e7 10%,
-        #e7e7e7 30%,
-        #1a1a1a 60%,
-        #1a1a1a 90%,
-        #1a1a1a 100%
-      );
-
-    --backdrop: #000000;
   }
 }
